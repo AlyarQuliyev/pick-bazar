@@ -1,0 +1,47 @@
+#ProductList {
+  padding: 32px;
+  .col-lg-3 {
+    padding: 0 5px;
+    .card {
+      height: 100%;
+      .btns {
+        background-color: #019376;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: 500;
+        height: 2.25rem;
+        width: 100%;
+        border: none;
+        transition: .3s ease-in-out;
+        &:hover{
+          background-color: #09614f;
+        }
+       
+      }
+      .card-body {
+        padding: 1.5rem;
+        h3 {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          color:#888;
+          cursor: pointer;
+          margin-bottom: 1rem;
+          font-family: Open Sans,system-ui,sans-serif;
+          font-weight: 300;
+          text-align: left;
+          
+        }
+        .text {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 600;
+          del {
+            margin-left: 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}
